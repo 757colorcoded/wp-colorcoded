@@ -1,0 +1,81 @@
+/*
+Theme Name: WP ColorCoded
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme created for <a href='https://757colorcoded.org'>757ColorCoded</a>.
+Version: 1.0.0
+Author: 757ColorCoded
+Author URI: https://757colorcoded.org
+License: GPL-3.0+
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+Template: enfold
+Text Domain: wp-colorcoded
+*/
+
+
+
+/*Add your own styles here:*/
+
+html {
+  font-size: 16px;
+}
+
+#socket {
+  font-size: 14px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.homepage_slider, .homepage_slider img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.caption_right .slideshow_caption {
+  right: 70px;
+}
+
+@media screen and (max-width: 1160px) {
+  .caption_right .slideshow_caption {
+    width: calc(100vw - 160px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .homepage_slider, .homepage_slider img {
+    height: 90vh;
+  }
+  .responsive #top .slideshow_caption {
+    width: calc(90vw - 160px);
+    left: 70px;
+  }
+}
+
+#tribe-bar-form label {
+  font-size: 14px;
+}
+
+#tribe-events-content .tribe-events-calendar div[id*="tribe-events-event-"] h3.tribe-events-month-event-title {
+  font-size: 16px;
+}
+
+.tribe-events-tooltip .tribe-events-event-body {
+  font-size: 16px;
+}
+
+.tribe-events-abbr.tribe-event-date-start {
+  font-size: 14px;
+}
+
+.tribe-events-calendar div[id*="tribe-events-daynum-"] {
+  font-size: 14px;
+}
+
+.tribe-events-calendar th {
+  font-size: 16px;
+}
+
+.tribe-events-tooltip h3 {
+  padding: 10px 0px 0px 19px;
+}
