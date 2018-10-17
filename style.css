@@ -79,3 +79,7 @@ html {
 .tribe-events-tooltip h3 {
   padding: 10px 0px 0px 19px;
 }
+
+#tribe-events-bar {
+  margin-top: 0 !important;
+}
