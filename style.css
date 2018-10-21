@@ -19,7 +19,7 @@ html {
 }
 
 #socket {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .logo a {
@@ -53,23 +53,23 @@ html {
 }
 
 #tribe-bar-form label {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #tribe-events-content .tribe-events-calendar div[id*="tribe-events-event-"] h3.tribe-events-month-event-title {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .tribe-events-tooltip .tribe-events-event-body {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .tribe-events-abbr.tribe-event-date-start {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .tribe-events-calendar div[id*="tribe-events-daynum-"] {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .tribe-events-calendar th {
